@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - actions
+      - "*"
     paths-ignore:
       - "depot_tools"
       - ".gitignore"
