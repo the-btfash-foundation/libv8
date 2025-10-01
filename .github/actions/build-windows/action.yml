@@ -53,4 +53,4 @@ runs:
 
     - name: Archive V8
       shell: pwsh
-      run: .\archive.bat ${{ inputs.archive-name }}
+      run: .\archive.bat ${{ inputs.archive-name }} 
