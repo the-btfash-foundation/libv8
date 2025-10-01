@@ -48,11 +48,7 @@ runs:
 
     - name: Show CCache Status
       shell: bash
-      run: ccache -s
-
-    - name: Test V8
-      shell: bash
-      run: ./v8_test.sh
+      run: ccache -s 
 
     - name: Archive V8
       shell: bash

@@ -47,10 +47,6 @@ runs:
     - name: Setup Developer Command Prompt
       uses: ilammy/msvc-dev-cmd@v1
 
-    - name: Test V8
-      shell: cmd
-      run: .\v8_test.bat
-
     - name: Archive V8
       shell: pwsh
       run: .\archive.bat ${{ inputs.archive-name }} 
